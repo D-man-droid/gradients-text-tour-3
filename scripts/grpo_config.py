@@ -198,7 +198,6 @@ def get_run_cmd(config: dict, gpu_nums: int):
         start_cmd
         + """ train_grpo.py \
     --request_path {request_path} \
-    --bf16 True \
     --report_to wandb \
     --output_dir /workspace/data/trained_model \
     --num_train_epochs {epoch_num} \
